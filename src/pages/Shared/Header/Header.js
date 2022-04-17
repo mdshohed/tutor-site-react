@@ -13,7 +13,7 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav  className="ms-auto nav">
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
-            <Nav.Link as={Link} to="/service">Services</Nav.Link>
+            <Nav.Link as={Link} to="/services">Services</Nav.Link>
             <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/about">
