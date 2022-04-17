@@ -1,4 +1,3 @@
-
 import './App.css';
 import NotFound from './pages/Shared/NotFound/NotFound';
 import { Route, Routes } from 'react-router-dom';
