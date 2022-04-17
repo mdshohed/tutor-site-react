@@ -11,3 +11,4 @@ Live Project Link [Live Site]()
 - npm install react-slick --save[React Slick]
 - npm install --save react-firebase-hooks[Firebase Hooks]
 - npm install firebase
+- npm install --save react-toastify[loading toastify]

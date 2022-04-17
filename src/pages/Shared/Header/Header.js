@@ -33,7 +33,6 @@ const Header = () => {
                 :
                 <div className="">
                   <Button as={Link} to='/login' id='custom-btn' className="btn me-3">Login</Button>
-                  <Button as={Link} to='/register' id='custom-btn' className="btn me-3">SignUp</Button>
                 </div>
               }
               
