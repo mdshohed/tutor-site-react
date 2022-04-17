@@ -1,0 +1,9 @@
+#custom-btn{
+  background-color: #6d28d9;
+  border: 0;
+  /* border-radius: 0; */
+}
+.nav a{
+  font-size: 20px;
+  margin:5px 10px;
+}
