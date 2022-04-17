@@ -10,3 +10,4 @@ Live Project Link [Live Site]()
 - npm install react-bootstrap bootstrap[React Bootstrap]
 - npm install react-slick --save[React Slick]
 - npm install --save react-firebase-hooks[Firebase Hooks]
+- npm install firebase
