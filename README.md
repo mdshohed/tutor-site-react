@@ -1,8 +1,8 @@
 # Programming tutor Project
 
-Github Project Link [Github Link](https://github.com/programming-hero-web-course-4/independent-service-provider-mdshohed)
+[Github Project Link](https://github.com/programming-hero-web-course-4/independent-service-provider-mdshohed)
 
-Live Project Link [Live Site]()
+[live website link]()
 
 ## Used React library to build for this project
 

@@ -68,18 +68,18 @@ const Login = () => {
     <h2 className='text-center text-primary'>Please Login</h2>
     <Form onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
+        <Form.Control ref={emailRef} type="email" placeholder="Enter email" required/>
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Control ref={passwordRef} type="password" placeholder="Password" />
+        <Form.Control ref={passwordRef} type="password" placeholder="Password" required/>
       </Form.Group>
       <p className='text-danger'>{error?.message}</p>
       <Button variant="primary w-50 mx-auto d-block mb-2 " type="submit">
-        Submit
+        Login
       </Button>
     </Form>
     <p className='text-center'>New to Programming tutor? <Link to="/register"  className='text-primary pe-auto text-decoration-none'>Please Register</Link></p>
-    <p className='text-center'>Forget Password? <button to="/register" onClick={resetPassword}   className='text-primary btn btn-link pe-auto text-decoration-none'>Reset Password</button></p>
+    <p className='text-center'>Forget Password? <button to="/register"   className='text-primary btn btn-link pe-auto text-decoration-none'>Reset Password</button></p>
     {/* <SocialLogin></SocialLogin> */}
     <ToastContainer />
   </div>

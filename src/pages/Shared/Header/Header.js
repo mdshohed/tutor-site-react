@@ -23,7 +23,7 @@ const Header = () => {
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/services">Services</Nav.Link>
             <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
-            <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link as={Link} to="/about">About me</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link as={Link} to='/login'>
@@ -35,7 +35,6 @@ const Header = () => {
                   <Button as={Link} to='/login' id='custom-btn' className="btn me-3">Login</Button>
                 </div>
               }
-              
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
