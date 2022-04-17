@@ -10,3 +10,8 @@
 .main-nav {
   box-shadow: 0 2px 4px #00000026;
 }
+.nav a:hover{
+  margin: 3px 10px;
+  border-bottom: 2px solid crimson;
+  transition: .1s;
+}

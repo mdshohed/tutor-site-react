@@ -5,4 +5,5 @@
 .blogs:hover{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-left: 3px solid red;
+  transition: .2s;
 }

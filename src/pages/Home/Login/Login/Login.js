@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { async } from '@firebase/util';
 import Loading from '../../../Shared/Loading/Loading';
+import SocialLogin from './../SocialLogin/SocialLogin';
 
 const Login = () => {
   const emailRef = useRef(''); 
@@ -80,7 +81,7 @@ const Login = () => {
     </Form>
     <p className='text-center'>New to Programming tutor? <Link to="/register"  className='text-primary pe-auto text-decoration-none'>Please Register</Link></p>
     <p className='text-center'>Forget Password? <button to="/register"   className='text-primary btn btn-link pe-auto text-decoration-none'>Reset Password</button></p>
-    {/* <SocialLogin></SocialLogin> */}
+    <SocialLogin></SocialLogin>
     <ToastContainer />
   </div>
   );
