@@ -1,0 +1,14 @@
+
+.service-card{
+  border-radius: 8px;
+  padding: 5px;
+  /* border: 1px solid salmon; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.service-card:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.service-text{
+  padding: 10px;
+}

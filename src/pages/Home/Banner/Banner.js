@@ -38,7 +38,7 @@ export default class PauseOnHover extends Component {
       prevArrow: <SamplePrevArrow />
     };
     return (
-      <div className='container'>
+      <div className='container mb-5'>
         <Slider {...settings}>
           <div>
             <h3>1</h3>
