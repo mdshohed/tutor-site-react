@@ -2,6 +2,9 @@
 .main-footer{
   background-color: #1c2430;
   padding: 20px;
+  position: sticky;
+  top: 100%;
+
 }
 .footer{
   display: flex;
