@@ -9,19 +9,25 @@ const Home = () => {
   return (
     <div className=''>
       <Banner></Banner>
-     <div className="tutor-course">
-       <h3 className='fw-bold text-center'>Tutor Service</h3>
-       <div className="main-service">
-        <div className="service">
-          {
-            services.slice(0,3).map(service=><Service
-            key={service.id}
-            service={service}
-            ></Service>)
-          }
+      <div className="tutor-course mt-5">
+        <h3 className='fw-bold text-center'>Tutor Service</h3>
+        <div className="main-service">
+          <div className="service">
+            {
+              services.slice(0,3).map(service=><Service
+              key={service.id}
+              service={service}
+              ></Service>)
+            }
+          </div>
         </div>
-       </div>
-     </div>
+      </div>
+      <div className="tutor-help d-flex justify-content-center">
+        <div className="">
+          <h3 className="text-white p-2">Get Live Coding Help from a Tutor Now</h3>
+          <div className="text-center p-2"><button className='btn text-white p-2' id='custom-btn'>Meet Tutor Now</button></div>
+        </div>
+      </div>
     </div>
   );
 };

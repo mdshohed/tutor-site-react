@@ -12,7 +12,7 @@ const Service = ({service}) => {
           <p>{description}</p>
           <h4>${Price}</h4>
         </div>
-        <button className='btn text-white m-2' id='custom-btn'>Checkout</button>
+        <button className='btn text-white mb-2 w-50 checkout' id='custom-btn'>Checkout</button>
       </div>
     </div>
   );

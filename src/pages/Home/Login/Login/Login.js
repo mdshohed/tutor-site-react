@@ -80,7 +80,7 @@ const Login = () => {
       </Button>
     </Form>
     <p className='text-center'>New to Programming tutor? <Link to="/register"  className='text-primary pe-auto text-decoration-none'>Please Register</Link></p>
-    <p className='text-center'>Forget Password? <button to="/register"   className='text-primary btn btn-link pe-auto text-decoration-none'>Reset Password</button></p>
+    <p className='text-center'>Forget Password? <button to="/register" onClick={resetPassword}  className='text-primary btn btn-link pe-auto text-decoration-none'>Reset Password</button></p>
     <SocialLogin></SocialLogin>
     <ToastContainer />
   </div>
