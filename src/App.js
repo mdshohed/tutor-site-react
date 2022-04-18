@@ -11,8 +11,11 @@ import Register from './pages/Home/Login/Register/Register';
 import RequireAuth from './pages/Home/Login/RequireAuth/RequireAuth';
 import CheckOut from './pages/CheckOut/CheckOut';
 import Footer from './pages/Shared/Footer/Footer';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from './firebase.init';
 
 function App() {
+  const [user] = useAuthState(auth); 
   return (
     <div className="App ">
       <Header></Header>
@@ -20,10 +23,11 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
+        <Route path='/checkout/:checkoutId' element={<CheckOut></CheckOut>}></Route>
         <Route path="/checkout" element={
           <RequireAuth>
             <CheckOut></CheckOut>
-          </RequireAuth> 
+          </RequireAuth>
         }></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
