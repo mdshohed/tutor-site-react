@@ -1,5 +1,6 @@
 import Slider from "react-slick";
 import React, { Component } from "react";
+import './Banner.css'
 
 export default class SimpleSlider extends Component {
   render() {
@@ -26,33 +27,39 @@ export default class SimpleSlider extends Component {
     var settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />
+      // nextArrow: <SampleNextArrow />,
+      // prevArrow: <SamplePrevArrow />
     };
-    // const settings = {
-    //   dots: true,
-    //   infinite: true,
-    //   speed: 500,
-    //   slidesToShow: 1,
-    //   slidesToScroll: 1
-    // };
     return (
-      <div className="container mt-5">
+      <div className="container mt-3">
         <Slider {...settings}>
-          <div>
-            <div className="text-center ">
-              
+          <div className="banner">
+            <div className="text-center d-flex banner">
+              <h5>Welcome to Programming tutor</h5>
+              <img className='mx-auto' src={"https://img-c.udemycdn.com/course/240x135/437398_46c3_10.jpg"} alt="" />
             </div>
           </div>
           <div>
-            <h3>2</h3>
+            <div className="text-center banner">
+              <h3>Welcome to Programming tutor</h3>
+              <img className='mx-auto' src={"https://img-c.udemycdn.com/course/240x135/822444_a6db.jpg"} alt="" />
+            </div>
           </div>
           <div>
-            <h3>3</h3>
+            <div className="text-center banner">
+              <h3>Welcome to Programming tutor</h3>
+              <img className='mx-auto' src={"https://img-c.udemycdn.com/course/240x135/82778_94fa_6.jpg"} alt="" />
+            </div>
+          </div>
+          <div>
+            <div className="text-center banner">
+              <h3>Welcome to Programming tutor</h3>
+              <img className='mx-auto' src={"https://img-c.udemycdn.com/course/240x135/570072_f3e5_2.jpg"} alt="" />
+            </div>
           </div>
         </Slider>
       </div>
