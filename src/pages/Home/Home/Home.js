@@ -3,6 +3,7 @@ import Banner from './../Banner/Banner';
 import useServices from './../../../hooks/useServices';
 import Service from './../Service/Service';
 import './Home.css'
+import Footer from './../../Shared/Footer/Footer';
 
 const Home = () => {
   const [services,setServices] = useServices(); 
