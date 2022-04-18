@@ -4,6 +4,11 @@
 
 [live website link]()
 
+## Project description
+
+this is a programming tutor website where people will be able to learn programming. in this project home page has our top 3 course details. also your can see all course details form service navar. 
+form blogs page your get a some react firebase and authentication.
+
 ## Used React library to build for this project
 
 - npm install react-router-dom@6[React Router]

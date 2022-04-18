@@ -38,26 +38,42 @@ export default class SimpleSlider extends Component {
       <div className="container mt-3">
         <Slider {...settings}>
           <div className="banner">
-            <div className="text-center d-flex banner">
-              <h5>Welcome to Programming tutor</h5>
+            <div className="text-center d-flex banner p-3">
+              <div className="">
+                <h5>Welcome to Programming tutor</h5>
+                <p>This is a top rated course our can see course details form service section</p>
+                <button className="btn text-white" id="custom-btn">See Course</button>
+              </div>
               <img className='mx-auto' src={"https://img-c.udemycdn.com/course/240x135/437398_46c3_10.jpg"} alt="" />
             </div>
           </div>
           <div>
-            <div className="text-center banner">
-              <h3>Welcome to Programming tutor</h3>
+            <div className="text-center banner p-3">
+              <div className="">
+                <h5>Welcome to Programming tutor</h5>
+                <p>This is a top rated course our can see course details form service section</p>
+                <button className="btn text-white" id="custom-btn">See Course</button>
+              </div>
               <img className='mx-auto' src={"https://img-c.udemycdn.com/course/240x135/822444_a6db.jpg"} alt="" />
             </div>
           </div>
           <div>
-            <div className="text-center banner">
-              <h3>Welcome to Programming tutor</h3>
+            <div className="text-center banner p-3">
+              <div className="">
+                <h5>Welcome to Programming tutor</h5>
+                <p>This is a top rated course our can see course details form service section</p>
+                <button className="btn text-white" id="custom-btn">See Course</button>
+              </div>
               <img className='mx-auto' src={"https://img-c.udemycdn.com/course/240x135/82778_94fa_6.jpg"} alt="" />
             </div>
           </div>
           <div>
-            <div className="text-center banner">
-              <h3>Welcome to Programming tutor</h3>
+            <div className="text-center banner p-3">
+              <div className="">
+                <h5>Welcome to Programming tutor</h5>
+                <p>This is a top rated course our can see course details form service section</p>
+                <button className="btn text-white" id="custom-btn">See Course</button>
+              </div>
               <img className='mx-auto' src={"https://img-c.udemycdn.com/course/240x135/570072_f3e5_2.jpg"} alt="" />
             </div>
           </div>

@@ -9,8 +9,8 @@ const About = () => {
       <div className="text-left">
         <img className='rounded-circle' style={{width:'100px'}} src={avator} alt="" />
         <h5>Shohedul islam</h5>
-        <h6><a className='text-decoration-none' href="http://gmail.com">mdshohed170@gmail.com</a></h6>
-        <p>Have doubt or suggestion to make? Feel free to ask anything. If you have any suggestions, please let me know. Your suggestions are highly appreciated. I appreciate your time and try hard to reply to every single message posted here! Keep dropping your priceless opinions. <span className='text-primary'>Read more...</span></p>
+        <h6><a className='text-decoration-none' href="http://gmail.com">Email: mdshohed170@gmail.com</a></h6>
+        <p>It's Shohedul Islam. I am a Student of CSE from Southeast University. I have 3 years experience in Problem solving and strong knowledge of Competitive Programming. I learn React project for future for backend. future i want to be a good developer. I have completed many projects for the Class assignments.</p>
       </div>
     </div>
   );
