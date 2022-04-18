@@ -12,3 +12,6 @@
 - npm install --save react-firebase-hooks[Firebase Hooks]
 - npm install firebase
 - npm install --save react-toastify[loading toastify]
+- npm i --save @fortawesome/fontawesome-svg-core[Font Awesome]
+- npm install --save @fortawesome/free-solid-svg-icons
+- npm install --save @fortawesome/react-fontawesome

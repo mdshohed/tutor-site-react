@@ -1,6 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import logo from '../../../images/icon.png'
 import './Footer.css'
+
 
 const Footer = () => {
   return (
@@ -11,24 +13,23 @@ const Footer = () => {
           <div className="d-flex text-white"><h5>Programming-<span className='text-danger'>Tutor</span> | </h5>
           <p className='ms-2'>Developed by ©Programming tutor</p></div>
         </div>
-        <div className="d-flex">
-          <div className="me-3">
-            <h4 className='text-white'>Our Service</h4>
+        <div className="d-flex pt-3">
+          <div className="me-5">
+            <h5 className='text-white'>Our Service</h5>
             <div className="our-service">
-            <p> <a href="">Learn HTML</a></p>
+            <p><a href="">Learn HTML</a></p>
             <p><a href="">Learn NodeJS</a></p>
             <p><a href="">Learn Django</a></p>
             <p><a href="">Learn Angular</a></p>
             </div>
           </div>
-          <div className="">
-            <h5>Our Help</h5>
-            <ul>
-              <li>Learn HTMl</li>
-              <li>Learn Django</li>
-              <li>Learn Node.js</li>
-              <li>Learn Angular</li>
-            </ul>
+          <div className="border-line"></div>
+          <div className="ms-5">
+            <h5 className='text-white'>Our Help</h5>
+            {/* <FontAwesomeIcon icon="fa-brands fa-facebook" /> */}
+            <p className='text-info'>Facebook</p>
+            <p className='text-info'>Whatsapp</p>
+            <p className='text-info'>Twitter</p>
           </div>
         </div>
       </div>
